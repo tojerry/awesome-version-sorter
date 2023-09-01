@@ -19,9 +19,11 @@ We have some custom versioning strings like this:\
 'ISE 3.0',\
 'ISE 2.7.1'
 
-They might be inserted to the database in differnt time so they are out of order and contain different formats. We can sort the list in the backend, but this solution is using Javascript to provide the sorting in the frontend unless the backend is using node.js which can reude this solution. Since we need to provide an list component on the UI, we can sort the list ascending or descending before populate on the UI. 
+They might be inserted to the database in differnt time so they are out of order and contain different formats. We can sort the list in the backend, but this solution is using Javascript to provide the sorting in the frontend unless the backend is using node.js which can reude this solution. Since we need to provide an list component on the UI, we can sort the list ascending or descending before populate on the UI.
+
 
 This is the expected result.
+
 
 "ISE 0.1"\
 "ISE 0.2"\
