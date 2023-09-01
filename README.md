@@ -6,8 +6,8 @@ There are many different type of versioning formats that are not compliant with 
 Consider this example.
 
 We have some custom versioning strings like this:
-'ISE 3.1 and above (API v1)', 
-'ISE 1.x and below (API v0)', 
+'ISE 3.1 and above (API v1)', \
+'ISE 1.x and below (API v0)', \
 'ISE 2.6', 
 'ISE 2.7.2',
 'ISE 1.2',
