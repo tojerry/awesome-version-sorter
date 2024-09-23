@@ -19,7 +19,7 @@ We have some custom versioning strings like this:\
 'ISE 3.0',\
 'ISE 2.7.1'
 
-They might be inserted to the database in differnt time so they are out of order and contain different formats. We can sort the list in the backend, but this solution is using Javascript to provide the sorting in the frontend unless the backend is using node.js which can reude this solution. Since we need to provide an list component on the UI, we can sort the list ascending or descending before populate on the UI.
+They might be inserted to the database in differnt time so they are out of order and contain different formats. Use chronological sorting method may not produce the best output. We can sort the list in the backend, but this solution is using Javascript to provide the sorting in the frontend unless the backend is also using node.js which can reuse this solution. The goal is to show a dropdown or list on the UI, this we can use this function to easily get the ascending or descending list.
 
 
 This is the expected result.
